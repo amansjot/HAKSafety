@@ -1,8 +1,6 @@
 import React from "react";
-import new_logo from "./logo.svg";
 import "./App.css";
-import { Center, Container, Divider, Heading, ListItem, Tab, TabList, TabPanel, TabPanels, Tabs, UnorderedList } from "@chakra-ui/react";
-import { Button } from "@chakra-ui/react";
+import { Center, Container, Divider, Heading, Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react";
 import {BlueButton} from "./components/BlueButton";
 import {Solutions} from "./components/Solutions";
 import { RecentAlerts } from "./components/RecentAlerts";
@@ -60,7 +58,7 @@ function App() {
                 <b>HAKSafety 2023</b><br/>
                 <div>HenHacks UD</div><br/>
                 <b>Team Members</b><br/>
-                Sakhee Desai, Heni Patel, Kambria Rogalski, Aman Singh
+                Heni Patel, Aman Singh, Kambria Rogalski, Sakhee Desai
             </div>
         </div>
     );

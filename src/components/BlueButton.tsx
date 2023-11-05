@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, IconButton } from "@chakra-ui/react";
+import { IconButton } from "@chakra-ui/react";
 import { WarningTwoIcon } from "@chakra-ui/icons";
 
 export function BlueButton(): JSX.Element {

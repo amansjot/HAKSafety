@@ -1,5 +1,5 @@
-import { Card, CardBody, Stack, Heading, Divider, CardFooter, ButtonGroup, Button } from "@chakra-ui/react";
-import React, { useState } from "react";
+import { Card, CardBody, Stack, Heading } from "@chakra-ui/react";
+import React from "react";
 
 export function RecentAlerts(): JSX.Element {
     return (

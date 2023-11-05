@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { FormControl, FormLabel, Heading, Input, Select } from "@chakra-ui/react";
+import { FormControl, FormLabel, Heading, Select } from "@chakra-ui/react";
 
 export function Solutions(): JSX.Element {
-    const [answer, setAnswer] = useState<string>("");
     const [soln, setSoln] =  useState<JSX.Element>();
 
     function solution(event: React.ChangeEvent<HTMLSelectElement>){
